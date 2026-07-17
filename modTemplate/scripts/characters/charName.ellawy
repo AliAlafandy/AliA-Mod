@@ -5,8 +5,17 @@ local customChar = "charName"; # change "charName" to "your character file name"
 
 function onLoadGame()
 	{
-		"charLoad": "characters/" .. customChar,
-		"charNum": 0, # players: [0 = Ali, 1 = Hamedo, 2 = Zezo, 3 = Mohamed, 4 = Ali & Hamedo]
-		"charOpen": false
+		if partner == off then
+		{
+			"charLoad": "characters/" .. customChar,
+			"charNum": 0, # players: [0 = Ellawy, 1 = Hamedo, 2 = Zezo, 3 = Mohamed, 4 = Ellawy & Hamedo]
+			"charOpen": false
+		} else {
+			"charLoad": "characters/" .. customChar,
+			"charNum": 0, # players: [0 = Ellawy, 1 = Hamedo, 2 = Zezo, 3 = Mohamed, 4 = Ellawy & Hamedo]
+			"charOpen": false,
+
+			"partnerLoad": "characters/" .. customChar
+		}
 	}
 end
