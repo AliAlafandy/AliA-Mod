@@ -7,5 +7,5 @@ How files work on level folder:
 ✓ Learning by Ali Alafandy ✓
 
 levelZERO/
-	levelZERO.bin
+	levelZERO.bin // levelZERO.cvg
 	levelZERO.png
