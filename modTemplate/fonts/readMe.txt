@@ -1,1 +1,1 @@
-There you can add your fonts.
+There you can put your fonts.
