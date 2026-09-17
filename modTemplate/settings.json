@@ -47,7 +47,7 @@
 			"type": "keybind",
     		"description": "This is a test custom key.",
 			"keyboard": "T", //
-			"gamepad": "RIGHT_TRIGGER" // 
+			"gamepad": "RIGHT_TRIGGER" //
 		]
 	}
 }
