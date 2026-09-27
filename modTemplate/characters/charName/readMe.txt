@@ -6,7 +6,7 @@ How animations work on character folder:
 
 ✓ Learning by Ali Alafandy ✓
 
-charName.json/
+charName.json:
 	# you can change charName.png into anyThing.png but you should change charName.xml like png one and edit on charName.json in "image": "anyThing".
 	# assets animations inside "name"
 		• idle
@@ -22,7 +22,7 @@ charName.json/
 		• victory
 		• gameOver
 
-If character has an extra animations:
+@ option: If character has an extra animations:
 	@ option1 • put it on charName.png
 	@ option2 • put it on charName_anim.png # _anim can be your animation name
 	# if you make charName_anim.png:
