@@ -9,7 +9,7 @@ function onStartGame()
 }
 end
 
-function intro(path:string, offsets:float, scale:float)
+function intro(path:string, offsets:float, scale:float):Bool
 {
 	"path": "videos/" .. videoSprite,
 	"offsets": [0, 0],
