@@ -1,14 +1,15 @@
 {
-	"name": "charName"
+	"charName": "charName"
 	"anim": {
 		[
 			"name": "Idle",
 			"image": "charName",
 			"prefix": "charName Idle0",
 			"offsets": [0, 0],
+			"loop": false,
 			"scale": 1,
 			"fps": 24,
-			"include": []
+			"indices": []
 		]
 	}
 }
