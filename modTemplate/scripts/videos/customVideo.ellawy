@@ -13,6 +13,6 @@ function intro(path:string, offsets:float, scale:float):Bool
 {
 	"path": "videos/" .. videoSprite,
 	"offsets": [0, 0],
-	"scale": [720, 1280]
+	"scale": [1280, 720]
 }
 end
