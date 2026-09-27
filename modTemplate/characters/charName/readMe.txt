@@ -6,19 +6,21 @@ How animations work on character folder:
 
 ✓ Learning by Ali Alafandy ✓
 
-charName.json/ # assets animations inside "name"
-	• idle
-	• waiting
-	• walking
-	• running
-	• stop
-	• fall
-	• jumping
-	• up
-	• down
-	• power
-	• victory
-	• gameOver
+charName.json/
+	# you can change charName.png into anyThing.png but you should change charName.xml like png one and edit on charName.json in "image": "anyThing".
+	# assets animations inside "name"
+		• idle
+		• waiting
+		• walking
+		• running
+		• stop
+		• fall
+		• jumping
+		• up
+		• down
+		• power
+		• victory
+		• gameOver
 
 If character has an extra animations:
 	@ option1 • put it on charName.png
